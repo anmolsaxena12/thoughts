@@ -1,0 +1,10 @@
+.comment {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+}
+.avatar {
+  margin: 10px !important;
+  height: 25px !important;
+  width: 25px !important;
+}

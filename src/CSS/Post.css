@@ -1,0 +1,53 @@
+.post {
+  padding: 20px;
+  margin-bottom: 15px;
+  background: white;
+  border-radius: 15px;
+}
+
+.post__header {
+  display: flex;
+  margin-bottom: 10px;
+}
+.post__info {
+  margin-left: 15px;
+}
+.post__info > p {
+  font-size: 0.8em;
+  color: gray;
+}
+.post__body {
+  overflow-wrap: anywhere;
+  padding: 5px;
+  margin: 5px;
+  border-bottom: 1px solid lightgray;
+}
+.post__buttons {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.post__button > p {
+  padding: 0 10px;
+}
+.post__button {
+  display: flex;
+  color: grey;
+}
+.comment__form {
+  display: flex;
+  align-items: center;
+  color: beige;
+  height: 30px !important;
+  background: #aaa;
+}
+.comment__input {
+  width: 50%;
+  font-size: 1px !important;
+  align-self: center;
+}
+.comment__button {
+  font-size: 12px !important;
+  width: 160px;
+}

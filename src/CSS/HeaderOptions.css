@@ -1,0 +1,16 @@
+.hOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: #9eb3c9;
+  cursor: pointer;
+  font-size: 10px;
+}
+.hOption__icon {
+  height: 25px !important;
+  width: 25px !important;
+}
+.hOptions:hover {
+  color: #4770ff;
+}
